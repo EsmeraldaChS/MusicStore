@@ -1,0 +1,34 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.31727.386
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "01.Api", "01.Api", "{682B0BDC-BC44-4FCD-9E52-4E264852D30C}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "02.Service", "02.Service", "{CBE653C7-96AA-43D8-8B84-F0975F7E1DCB}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "03.Domain", "03.Domain", "{A4D3F701-DE37-40E7-A965-2BD61F82BA17}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MusicStore.Api", "src\MusicStore.Api\MusicStore.Api.csproj", "{34639EA0-C6CE-4AFD-BFB3-93C7FBEDB10D}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{34639EA0-C6CE-4AFD-BFB3-93C7FBEDB10D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{34639EA0-C6CE-4AFD-BFB3-93C7FBEDB10D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{34639EA0-C6CE-4AFD-BFB3-93C7FBEDB10D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{34639EA0-C6CE-4AFD-BFB3-93C7FBEDB10D}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{34639EA0-C6CE-4AFD-BFB3-93C7FBEDB10D} = {682B0BDC-BC44-4FCD-9E52-4E264852D30C}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {FAA9B7BF-120D-4FE3-A137-C6A2654976BC}
+	EndGlobalSection
+EndGlobal
